@@ -1,0 +1,27 @@
+
+# STYLING
+font="Noto Sans Mono Medium 10"
+background-color=#101010bb
+border-color=#ffffff55
+border-radius=10
+
+layer=overlay
+width=300
+padding=7
+
+anchor=top-center
+
+sort=-time
+default-timeout=3500
+ignore-timeout=1
+
+[urgency=low]
+border-color=#cccccc
+
+[urgency=high]
+background-color=#aa3030bb
+border-color=#bf616a
+default-timeout=0
+
+[category=mpd]
+group-by=category
