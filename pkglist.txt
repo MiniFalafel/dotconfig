@@ -1,0 +1,7 @@
+hyprland
+hyprpaper
+hyprlock
+mako
+neofetch
+neovim
+pygobject
