@@ -4,4 +4,4 @@ hyprlock
 mako
 neofetch
 neovim
-pygobject
+python-gobject
