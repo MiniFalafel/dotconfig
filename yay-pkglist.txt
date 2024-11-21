@@ -1,3 +1,4 @@
+swayosd-git
 waybar-cava
 hyprlauncher-bin
 xdg-desktop-portal-hyprland
