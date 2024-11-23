@@ -1,6 +1,6 @@
 [submodule ".config/waybar/pickle-bar"]
 	path = .config/waybar/pickle-bar
-	url = git@github.com:MiniFalafel/pickle-bar.git
+	url = https://github.com/MiniFalafel/pickle-bar.git
 [submodule ".config/nvim"]
 	path = .config/nvim
-	url = git@github.com:MiniFalafel/dotnvim.git
+	url = https://github.com/MiniFalafel/dotnvim.git
