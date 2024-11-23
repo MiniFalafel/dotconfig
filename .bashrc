@@ -8,8 +8,6 @@
 
 #force_color_prompt=yes
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
 #PS1='[\u@\h \W]\$ '
 
 RC_COL_USR=$'\e[35m'  # Kitty theme: color5 (30 + 5)
@@ -23,10 +21,13 @@ PS1='[\[${RC_COL_USR}\]\u\[${RC_COL_AT}\]@\[${RC_COL_HOST}\]\h\[${RC_COL_END}\] 
 
 
 ## ALIASES ##
-alias icat="kitten icat"
+# Uncomment these if you want to use them
+#alias icat="kitten icat"
+# Colors for basic tools
+#alias ls='ls --color=auto'
+#alias grep='grep --color=auto'
 
-# Solution to XDG_RUNTIME_DIR not set linked at https://github.com/swaywm/sway/issues/7202
-export XDG_RUNTIME_DIR=/run/user/1000
+#export XDG_RUNTIME_DIR=/run/user/1000
 
 [[ -n "$_TUTR" ]] && source $_TUTR || true  # shell tutorial shim DO NOT MODIFY
 
