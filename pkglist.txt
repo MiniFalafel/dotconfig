@@ -3,3 +3,5 @@ hyprpaper
 hyprlock
 mako
 neofetch
+kitty
+firefox
