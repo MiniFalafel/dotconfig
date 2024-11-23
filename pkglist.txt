@@ -3,5 +3,3 @@ hyprpaper
 hyprlock
 mako
 neofetch
-python-gobject
-cliphist
