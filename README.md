@@ -1,22 +1,19 @@
 # dotconfig
 
+
 ## Installation
 
-Clone the repo into a folder of your choice:
+Clone the repo and run the install script:
 ```bash
-$ git clone --recursive git@github.com:MiniFalafel/dotconfig.git FOLDER
+$ git clone --recursive git@github.com:MiniFalafel/dotconfig.git
+$ cd dotconfig
+$ ./install.sh
 ```
-
-Install the dependencies
-```
-$ cd FOLDER
-$ sudo pacman -S - < pkglist.txt
-$ yay -S - < yay-pkglist.txt
-```
+Make sure that you use the `--recursive` flag! This ensures that all submodules are also downloaded for installation
 
 Move the contents into your `$HOME` directory and delete the old folder:
 ```bash
 $ cd ..
-$ mv FOLDER/* $HOME/
-$ rm -r FOLDER
+$ mv dotconfig/* $HOME/
+$ rm -r dotconfig
 ```
