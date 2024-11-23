@@ -13,7 +13,7 @@ $ ./install.sh
 
 Move the contents into your `$HOME` directory and delete the old folder:
 
-⚠️ **Warning:** It's possible that this will override existing files in you rhome folder!
+⚠️ **Warning:** It's possible that this will override existing files in your home folder!
 ```bash
 $ mv ./* $HOME/
 $ cd ..
